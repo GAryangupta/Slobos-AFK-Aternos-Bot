@@ -45,16 +45,16 @@
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
+      "radius": 400,
       "speed": 3000
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 100
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 200
     }
   },
   "modules": {
