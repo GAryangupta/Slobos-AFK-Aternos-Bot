@@ -44,17 +44,36 @@
   "movement": {
     "enabled": true,
     "circle-walk": {
-      "enabled": true,
-      "radius": 400,
-      "speed": 3000
+      "enabled": false,
+      "radius": 4,
+      "speed": 6000
     },
     "look-around": {
       "enabled": true,
-      "interval": 100
+      "interval": 4000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 200
+      "interval": 10000
+    },
+    "random-walk": {
+      "enabled": true,
+      "min-delay": 2000,
+      "max-delay": 6000,
+      "min-duration": 500,
+      "max-duration": 2000
+    },
+    "idle-pause": {
+      "enabled": true,
+      "chance": 0.3,
+      "min-duration": 3000,
+      "max-duration": 9000
+    },
+    "random-sneak": {
+      "enabled": true,
+      "chance": 0.15,
+      "min-duration": 400,
+      "max-duration": 1500
     }
   },
   "modules": {
